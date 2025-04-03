@@ -4,7 +4,7 @@ pipeline{
         stage('git scm')
         {
           steps{
-            git branch: 'master' , url: 'https://github.com/lokiharsha/java-c-p.git'
+            git branch: 'dev' , url: 'https://github.com/lokiharsha/java-c-p.git'
           }
           
         }
